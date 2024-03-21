@@ -19,11 +19,11 @@ const Nav = () => {
         }
     }
   return (
-    <div className="navbar bg-base-100 shadow-lg px-6 z-10">
+    <div className="navbar bg-base-100 shadow-lg px-6 sm:px-6 fixed z-10">
       <div className="flex-1">
         <Link to='/' className="btn btn-ghost gap-0 text-secondary text-2xl">Byte <span className="text-primary">Blaze</span></Link>
       </div>
-      <div className="flex-none">
+      <div className="flex-none gap-5">
         <nav className="menu menu-horizontal px-1 hidden md:flex lg:flex gap-5">
           <NavLink to='/' className={({isActive}) => isActive? 'text-primary font-bold' : 'font-bold'}>
             Home
