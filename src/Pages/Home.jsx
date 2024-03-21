@@ -1,9 +1,9 @@
-import Nav from "../Components/Nav";
+// import Nav from "../Components/Nav";
 
 const Home = () => {
     return (
         <div>
-            <Nav/>
+            {/* <Nav/> */}
             <h1>HomePage</h1>
         </div>
     );
