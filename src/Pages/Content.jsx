@@ -8,10 +8,10 @@ const Content = () => {
   const blog = useLoaderData();
   const {cover_image, title, tags, body_html, url} = blog
   return (
-    <div className=" mx-auto  border-2 p-2  border-opacity-30 group hover:no-underline focus:no-underline dark:dark:bg-gray-900">
+    <div className=" mx-auto  border-2 p-2  border-opacity-30 group hover:no-underline focus:no-underline">
       <img
         role="presentation"
-        className="object-cover w-full rounded h-44 dark:dark:bg-gray-500"
+        className="object-cover w-full rounded h-44"
         src={cover_image || placeHolderImgae}
       />
        <div className='flex flex-wrap py-6 gap-2 border-t border-dashed '>
